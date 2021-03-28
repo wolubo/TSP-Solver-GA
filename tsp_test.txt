@@ -1,0 +1,16 @@
+populationSize  = 50000
+numberOfGenerations = 200
+
+locations2visit = Aachen, Basel,Bremen, Dortmund, Dresden, Duesseldorf, Emden, Erfurt, Flensburg, Koeln, Muenchen, Berlin, Hamburg, Frankfurt Main, Frankfurt Oder
+
+mutationRate = 10
+numberOfChildren = 4
+elitismRate = 5
+showProgress = yes
+showIntermediateResults = yes
+
+crossover scheme = ERX
+mutation scheme = random exchange
+substitution scheme = elitism
+evaluation scheme = round trip
+selection scheme = relative fitness

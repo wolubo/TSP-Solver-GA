@@ -1,0 +1,16 @@
+populationSize  = 50000
+numberOfGenerations = 100
+
+mutationRate = 5
+numberOfChildren = 5
+elitismRate = 10
+showProgress = yes
+showIntermediateResults = yes
+
+locations2visit = Aachen, Berlin, Bremen, Dortmund, Dresden, Duesseldorf, Frankfurt Main, Hamburg, Hannover, Kassel, Koeln, Leipzig, Muenchen, Nuernberg, Saarbruecken, Stuttgart, Wiesbaden, Basel, Flensburg, Mannheim,Koblenz, Passau, Rostock, Emden
+
+crossover scheme = ERX
+mutation scheme = random exchange
+substitution scheme = elitism
+evaluation scheme = round trip
+selection scheme = relative fitness

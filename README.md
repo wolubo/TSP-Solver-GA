@@ -5,7 +5,8 @@ Die Implementierung orientiert sich am Buch „Genetische Algorithmen und Evolut
 Addison-Wesley, 1. Auflage, 1994, ISBN: 3-89319-493-2). Es ist möglich, den Algorithmus durch Angabe der zu verwendenden 
 Komponenten in gewissen Grenzen zu konfigurieren. So lassen sich bspw. das Ersetzungsschema, das Heiratsschema oder das 
 Selektionsschema auszutauschen. Auf diese Weise können durch das Implementieren der passenden Komponenten auch andere 
-Optimierungsprobleme als das Traveling Salesman Problem gelöst werden, ohne die Struktur des Programms ändern zu müssen.
+Optimierungsprobleme als das Traveling Salesman Problem gelöst werden, ohne die Struktur des Programms ändern zu müssen. 
+Einige Erläuterungen zum TSP finden sich in meinem [Blog](https://www.wolfgang-bongartz.de/blog/?id=traveling-salesman-problem).
 
 ## Start
 Im Terminal lässt sich das Programm aus dem Projekt-Verzeichnis heraus wie folgt starten (mit Default-Parametern):

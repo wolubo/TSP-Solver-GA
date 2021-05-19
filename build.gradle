@@ -1,5 +1,10 @@
 plugins {
+    id 'application'
     id 'java'
+}
+
+application {
+    mainClass = 'de.wbongartz.tsp_solver_ga.MainProgram'
 }
 
 repositories {
@@ -21,4 +26,8 @@ test {
 dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.3.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.3.1'
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
 }
